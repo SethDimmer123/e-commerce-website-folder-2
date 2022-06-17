@@ -38,11 +38,11 @@ a:hover {
 }
 
 ul {
-  display: flex;
+  display: flex;/*puts the nav links next to each other "horizontal"*/
 }
 
 li {
-  list-style-type: none;
+  list-style-type: none;/*takes away the bullet points*/
 }
 
 h1 {
@@ -80,35 +80,35 @@ button:active {
 }
 
 .logo {
-  width: 160px;
+  width: 160px;/*makes the  library logo smaller "logo"*/
 }
 
-.nav__container {
+.nav__container {/*Nav bar*/
   width: 100%;
-  max-width: 1200px;
-  padding: 0 24px;
+  max-width: 1200px;/*makes them responsive with the page*/
+  padding: 0 24px;/*0 is for top and bottom 24px is left and right gets the logo and nav links away from the edges of the page*/
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
+  justify-content: space-between;/*sends the nav links to the right side of the page*/
+  align-items: center;/* centers the "logo" and "nav links" on the vertical axis*/
+  margin: 0 auto;/*centers the nav bar*/
 }
 
-.nav__link {
-  margin-left: 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #7342d6;
-  font-weight: bold;
-  padding: 8px;
+.nav__link {/*styling of the nav links*/
+  margin-left: 16px;/*Spaces the nav links in between them horizontally*/
+  text-decoration: none;/*Takes away the underline under the nav links*/
+  font-size: 20px;/*makes the font size bigger*/
+  color: #7342d6;/*color of text*/
+  font-weight: bold;/**/
+  padding: 8px;/*padding between the links since the "book" link has a "primary" class linked to it*/
 }
 
 .nav__link:hover {
   text-decoration: underline;
 }
 
-.nav__link--primary {
-  border: 2px solid #7342d6;
-  border-radius: 4px;
+.nav__link--primary {/*styling of the nav__link "book"*/
+  border: 2px solid #7342d6;/*color of box around nav__link "book"*/
+  border-radius: 4px;/*curves the edges of the little box around the nav__link "book"*/
 }
 
 .nav__link--primary:hover {
