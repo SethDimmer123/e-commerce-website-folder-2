@@ -12,8 +12,8 @@
   <body>
   <section id="landing">
       <nav>
-          <div class="nav__container">
-        <img class="logo" src="./assets/Library.svg" alt="">
+          <div class="nav__container"><!--the container is containing the "width" without that the page stretches to the sides which is bad-->
+        <img class="logo" src="./assets/Library.svg" alt=""><!--library logo-->
         <ul class="nav__links">
             <li><a href="#" class="nav__link">Home</a></li>
             <li><a href="#" class="nav__link">Contact</a></li>
@@ -41,9 +41,9 @@
       </div>
       </nav>
       <header>
-          <div class="header__container">
+          <div class="header__container"><!--inspect element make sure the width is expanding the whole page-->-->
           <div class="header__description">
-               <h1>America's Most warded Online Library Platform</h1> 
+               <h1>America's Most Awarded Online Library Platform</h1> 
                <h2>Find your dream book with <span class="purple">library</span></h2>
                <a href="#features">
                <button class="btn">Browse books</button>
@@ -56,18 +56,18 @@
       </header>
   </section> 
   
-  <main>
+  <main><!--MAIN CONTENT--><!--Highlights--><!--DO NOT DUPLICATE THE WRAPPER YOU ONLY NEED ONE WRAPPER FOR THE 3 BOXES-->
     <section id="highlights">
-        <div class="container">
-            <div class="row">
+        <div class="container"><!--You will see this order of an id and the 2 classes of "container" and "row" alot-->
+            <div class="row"><!--A row is just so I can add a max-width-->
                 <h2 class="section__title">
                     Why choose <span class="purple">Library</span>
                 </h2>
-                <div class="highlight__wrapper">
-                    <div class="highlight">
+                <div class="highlight__wrapper"><!--centers your content and holds it in place-->
+                    <div class="highlight"><!--this is the general term for the image,thunderbolt icon, subtitle,h3,and paragraph tag-->
                         <div class="highlight__img">
-                            <i class="fas fa-bolt"></i>
-                        </div>
+                            <i class="fas fa-bolt"></i><!--thunderbolt logo-->
+                        </div><!--you put the div here so the flexbox on the thunderbolt logo would work look at".highlight" in css-->
                             <h3 class="highlight__subtitle">Easy And Quick</h3>
                             <p class="highlight__para">
                                 Get access to the book you purchased online instantly.
@@ -78,11 +78,11 @@
                             <i class="fas fa-book-open"></i>
                         </div>
                             <h3 class="highlight__subtitle">10,000+ Books</h3>
-                            <p class="highlight__para">
+                            <p class="highlight__para"><!--sentence under h3 tag-->
                                 Library has books in all your favorite categories.
                             </p>
                     </div>
-                    <div class="highlight">
+                    <div class="highlight"><div class="highlight"><!--this is the general term for the image,thunderbolt icon, subtitle,h3,and paragraph tag-->
                         <div class="highlight__img">
                             <i class="fas fa-tags"></i>
                         </div>
@@ -98,7 +98,7 @@
 
       <section id="features">
         <div class="container">
-         <div class="row">
+         <div class="row"><!--A row is just so i can add a max-width-->
             <h2 class="section__title">
               Featured<span class="purple"> Books</span>
           </h2> 

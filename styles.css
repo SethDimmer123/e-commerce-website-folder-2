@@ -16,7 +16,7 @@ body {
 }
 
 nav {
-  height: 80px;
+  height: 80px;/**/
   display: flex;
   margin-bottom: 5%;
 }
