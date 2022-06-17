@@ -21,8 +21,8 @@ nav {
   margin-bottom: 5%;
 }
 
-img {
-  width: 85%;
+img {/*landing page image*/
+  width: 100%;
 }
 
 p {
@@ -45,10 +45,9 @@ li {
   list-style-type: none;/*takes away the bullet points*/
 }
 
-h1 {
-  font-size: 37px;
+h1 {/*css for "America's Most Awarded Online Library Platform"*/
+  font-size: 56px;
   color: #7342d6;
-  margin-top: 100px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -76,7 +75,7 @@ button:active {
 }
 
 .purple {
-  color: #7342d6;
+  color: #7342d6;/*color of text in span classes*/
 }
 
 .logo {
@@ -102,7 +101,7 @@ button:active {
   padding: 8px;/*padding between the links since the "book" link has a "primary" class linked to it*/
 }
 
-.nav__link:hover {
+.nav__link:hover {/*when (hovering) over nav__links underline shows up*/
   text-decoration: underline;
 }
 
@@ -111,9 +110,9 @@ button:active {
   border-radius: 4px;/*curves the edges of the little box around the nav__link "book"*/
 }
 
-.nav__link--primary:hover {
+.nav__link--primary:hover {/*When hovering over the nav__link "book" underline does not show up*/
   text-decoration: none;
-}
+}/*hover element in general needs to come after the original class or else the hover effect will not work*/
 
 .btn__menu {
   background-color: transparent;
@@ -178,21 +177,21 @@ button:active {
 /* LANDING*/
 
 #landing {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: rgba(115, 66, 214, 0.1);/*background color of landing page*/
 }
 
 header {
-  height: calc(100vh - 80px);
+  height: calc(100vh - 80px);/*come back at interval 10:34 to figure out how to do later of e-commerce site*/
 }
 
 .header__container {
-  width: 100%;
-  max-width: 720px;
-  margin: 0 auto;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  width: 100%;/*in "inspect element the width is spanning the whole width of the page"*/
+  max-width: 720px;/*sets the maximum width of an element. It prevents the used value of the width property from becoming larger than the value specified by max-width (if the context is smaller than the max-width then the max-width has no-effect)*/
+  margin: 0 auto;/*centers the h1 and h2 in the header__container*/
+  height: 100%;/*(Look in inspect element for this) */
+  display: flex;/*(Look in inspect element for this)*/
+  flex-direction: column;/*(Look in inspect element for this)*/
+  justify-content:space-around;/*(Look in inspect element for this)*/
 }
 
 .header__description {
