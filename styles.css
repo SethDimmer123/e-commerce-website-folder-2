@@ -48,7 +48,7 @@ li {
 
 h1 {/*css for "America's Most Awarded Online Library Platform"*/
   font-size: 56px;
-  color: #7342d6;
+  color:#7342d6 ;
   margin-bottom: 24px;
   text-align: center;
 }
@@ -68,7 +68,7 @@ button:active {
 
 .btn {
   background-color: #7342d6;
-  color: white;
+  color: white;/*color of button text (button under header description)*/
   padding: 12px 24px;
   font-size: 20px;
   border-radius: 4px;
