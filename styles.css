@@ -103,7 +103,7 @@ button:active {
 }
 
 .nav__link:hover {/*when (hovering) over nav__links underline shows up*/
-  text-decoration: underline;
+  text-decoration: underline;/*Puts an line when hovering over the nav links*/
 }
 
 .nav__link--primary {/*styling of the nav__link "book"*/
