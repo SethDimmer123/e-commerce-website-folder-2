@@ -69,10 +69,10 @@ button:active {
 .btn {
   background-color: #7342d6;
   color: white;/*color of button text (button under header description)*/
-  padding: 12px 24px;
+  padding: 12px 24px;/*Spreads out the inside of the button*/
   font-size: 20px;
   border-radius: 4px;
-  border: none;
+  border: none;/*Has no outline of button*/
 }
 
 .purple {
