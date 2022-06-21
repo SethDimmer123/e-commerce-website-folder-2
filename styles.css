@@ -49,8 +49,8 @@ li {
 h1 {/*css for "America's Most Awarded Online Library Platform"*/
   font-size: 56px;
   color:#7342d6 ;
-  margin-bottom: 24px;
-  text-align: center;
+  margin-bottom: 24px;/*It is better to do pixels in groups of 8px*/
+  text-align: center;/*centers th text in the middle of the container*/
 }
 
 h2 {
